@@ -26,7 +26,7 @@ function onEachFeature(feature, layer) {
   layer.bindPopup(html);
 }
 
-L.geoJson(imoveis, {
+L.geoJson.ajax("imoveis.json", {
   style: function(feature) {
     switch (feature.properties.tipo) {
       case 'Casa': return {color: "#ff0000"};

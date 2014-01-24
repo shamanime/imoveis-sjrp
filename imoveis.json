@@ -1,4 +1,4 @@
-var imoveis = {
+{
   "type": "FeatureCollection",
   "features": [
     {
@@ -2940,4 +2940,4 @@ var imoveis = {
       }
     }
   ]
-};
+}
